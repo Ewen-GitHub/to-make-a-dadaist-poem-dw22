@@ -54,7 +54,7 @@
     <div id="poem"></div>
     <!-- script -->
     <script>
-      const article = `Government officials were warned repeatedly about making misleading claims about job figures before the official statistics watchdog reprimanded Boris Johnson over the matter. Ed Humpherson, the director general of the UK Statistics Authority (UKSA), said there had been “a series of informal discussions” before the regulator took the “unusual” step of issuing public rebukes to No 10 over the same issue twice last month. During more than half a dozen editions of prime minister’s questions since November, Johnson has made the misleading claim that more people are in employment in the UK than before the pandemic began. Yet, although the numbers of workers on payrolls has risen, the number of self-employed people has dropped significantly so that the total number of people in work is down by 600,000. The chair of the UKSA, Sir David Norgrove, wrote to Johnson saying he was making “a selective use of data” and added that “public trust requires a complete statement”.`;
+      const article = `Welcome to the First Wives of the Silicon Valley Billionaires Club. Anybody questioning how good it can feel to join ought to look at the liberated glow of Melinda French Gates when she spoke to CBS anchor Gayle King this week. A “journey of healing” has apparently made her a new woman. Getting so rich so suddenly must take the sting out of becoming the clichéd ex-wife of a nerdish tech bro. But what makes the First Wives most interesting is what they do with that cash. In almost all cases, they’ve decided to give a lot of it away.`;
       const button = document.getElementById("new-poem");
       function shuffleWords(list) {
         return list
@@ -76,7 +76,7 @@
       function assemblePoem(articleWords) {
         let lineText = "";
         for (const [counter, word] of articleWords.entries()) {
-          if ((counter + 1) % 5 == 0) {
+          if ((counter + 1) % 4 == 0) {
             addLine(lineText);
             lineText = "";
           } else {
